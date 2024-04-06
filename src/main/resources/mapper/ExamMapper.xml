@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.exam.mapper.ExamMapper">
+
+
+    <select id="selectExamRecordByUsername" resultType="java.lang.Integer">
+        select re.exam_id
+        from exam_record as re
+        left join `user` as u on re.user_id=u.id
+        where u.username=#{username}
+        group by re.exam_id
+    </select>
+</mapper>

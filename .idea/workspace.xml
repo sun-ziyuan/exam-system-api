@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84b316fc-c0c4-48f2-a3f8-15349f347abe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/ExamAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/Interceptor/AdminInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/Interceptor/StudentInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/Interceptor/TeacherInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/Interceptor/WebAppConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/annotation/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/aspect/ApiSignAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/aspect/BodyAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/aspect/CacheAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/config/OSSConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/controller/PublicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/controller/UtilController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/dto/AddUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/dto/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/dto/RegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/dto/StudentExamRecordExcelDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/dto/UpdateUserInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/ExamQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/ExamRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/QuestionBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/exception/CommonErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/exception/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/exception/RestErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/mapper/AnswerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/mapper/ExamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/mapper/ExamQuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/mapper/ExamRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/mapper/NoticeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/mapper/QuestionBankMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/mapper/QuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/mapper/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/security/MyAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/security/MyAuthenticationEntryPointHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/security/TokenAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/security/UserLoadSecurityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/AnswerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/ExamQuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/ExamRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/ExamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/NoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/QuestionBankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/impl/AnswerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/impl/ExamQuestionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/impl/ExamRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/impl/ExamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/impl/NoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/impl/QuestionBankServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/impl/QuestionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/utils/AnnotationUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/utils/CertificateUtil/ContentStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/utils/CertificateUtil/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/utils/CertificateUtil/PDFUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/utils/CommonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/utils/CreateVerificationCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/utils/OSSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/utils/SaltEncryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/utils/SignUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/vo/AddExamByBankVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/vo/AddExamByQuestionVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/vo/BankHaveQuestionSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/vo/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/vo/ExamQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/vo/PageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/vo/QuestionVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/vo/TokenVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/vo/UserInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/vo/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ExamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/certificateBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templateCertificate.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/exam/ExamAdminApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/ExamAdminApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/Interceptor/AdminInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/Interceptor/StudentInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/Interceptor/TeacherInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/Interceptor/WebAppConfigurer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/annotation/Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/aspect/ApiSignAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/aspect/BodyAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/aspect/CacheAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/aspect/LogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/config/DruidConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/config/OSSConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/controller/CommonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/controller/PublicController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/controller/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/controller/TeacherController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/controller/UtilController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/dto/AddUserDto$AddUserDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/dto/AddUserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/dto/LoginDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/dto/RegisterDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/dto/StudentExamRecordExcelDto$StudentExamRecordExcelDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/dto/StudentExamRecordExcelDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/dto/UpdateUserInfoDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/entity/Answer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/entity/Exam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/entity/ExamQuestion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/entity/ExamRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/entity/Notice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/entity/Question.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/entity/QuestionBank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/entity/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/entity/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/exception/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/exception/CommonErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/exception/ErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/exception/RestErrorResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/mapper/AnswerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/mapper/ExamMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/mapper/ExamQuestionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/mapper/ExamRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/mapper/NoticeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/mapper/QuestionBankMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/mapper/QuestionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/mapper/UserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/security/MyAccessDeniedHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/security/MyAuthenticationEntryPointHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/security/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/security/TokenAuthFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/security/UserLoadSecurityServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/AnswerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/ExamQuestionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/ExamRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/ExamService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/NoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/QuestionBankService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/QuestionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/UserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/impl/AnswerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/impl/ExamQuestionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/impl/ExamRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/impl/ExamServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/impl/NoticeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/impl/QuestionBankServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/impl/QuestionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/impl/UserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/utils/AnnotationUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/utils/CertificateUtil/ContentStyle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/utils/CertificateUtil/DateTimeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/utils/CertificateUtil/PDFUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/utils/CommonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/utils/CreateVerificationCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/utils/JwtUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/utils/OSSUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/utils/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/utils/SaltEncryption.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/utils/SignUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/AddExamByBankVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/AddExamByQuestionVo$AddExamByQuestionVoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/AddExamByQuestionVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/BankHaveQuestionSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/CommonResult$CommonResultBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/CommonResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/ExamQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/PageResponse$PageResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/PageResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/QuestionVo$Answer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/QuestionVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/TokenVo$TokenVoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/TokenVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/UserInfoVo$UserInfoVoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/UserInfoVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/exam/vo/UserVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ExamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/NoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/certificateBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/templateCertificate.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../../../Shared/apache-maven-3.6.3" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../../../Shared/apache-maven-3.6.3/repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../Shared/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2eiofY63r3iFMqSMYssNXG4zw1y" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.exam-admin [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ExamAdminApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mac/Desktop/exam_system-master/exam-admin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ExamAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="exam-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.exam.ExamAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84b316fc-c0c4-48f2-a3f8-15349f347abe" name="Changes" comment="" />
+      <created>1712396863072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712396863072</updated>
+      <workItem from="1712396864830" duration="3416000" />
+      <workItem from="1712411732730" duration="8918000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
